@@ -1,0 +1,708 @@
+button:focus, button:active, a:focus, a:active {
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.where-buy-wrapper {
+    width: 100%;
+    overflow: hidden;
+    font-family: Lato, Helvetica, sans-serif;
+    margin-bottom: 60px;
+    padding-bottom: 25px;
+}
+
+.green-line {
+    display: block;
+    min-width: 2000px;
+    position: relative;
+    left: -400px;
+    top: -35px;
+    background: #008D49;
+    color: #fff;
+    margin-bottom: 75px;
+}
+
+.green-line a {
+    color: #fff;
+}
+
+.green-line a:hover {
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.map-block {
+    display: inline-block;
+    width: 35%;
+    margin-left: 5%;
+    height: 423px;
+    background: #fff;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+.reload-spinner:after {
+    font-family: FontAwesome;
+    content: "\f021";
+    font-weight: 400;
+
+}
+
+.map {
+    height: 313px;
+    width: 100%;
+}
+
+.products {
+    padding: 10px;
+}
+
+.product-item {
+    display: inline-block;
+    width: 49%;
+    font-size: 14px;
+    color: #75277D;
+    font-weight: bold;
+}
+
+.where-buy-products-title {
+    padding: 7px 15px 7px 15px;
+    color: #fff;
+    background: #75277D;
+    margin-bottom: 0;
+}
+
+.reload-spinner {
+    position: relative;
+    font-size: 11px;
+    float: right;
+    cursor: pointer;
+}
+
+.reload-spinner.active {
+    -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+.map-block input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.where-buy-checkbox-style {
+    margin-top: 0;
+    position: relative;
+    top: 3px;
+    margin-right: 7px;
+    display: inline-block;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    background-color: #fff;
+    border-radius: 9px;
+    box-shadow: 1px 1px 6px -2px #000 inset;
+}
+
+.where-buy-checkbox-style.active {
+    top: 0;
+    background: #75277D;
+}
+
+.where-buy-checkbox-style.active:after {
+    font-family: FontAwesome;
+    content: "\f00c";
+    color: #fff;
+    font-weight: 400;
+    visibility: visible;
+    font-size: 11px;
+    position: relative;
+    left: 3px;
+    top: -1px;
+}
+
+.where-buy-fiber-choice-block {
+    float: right;
+    width: 51%;
+    height: 410px;
+    margin-right: 5%;
+
+}
+
+.where-buy-fiber-choice-block h1 {
+    font-size: 37px;
+    color: #008D49;
+}
+
+.where-find-by-input {
+    border-radius: 9px !important;
+    width: 21% !important;
+    height: 10px !important;
+    color: #999999 !important;
+    box-shadow: 3px 3px 10px -4px #8e87876e inset;
+    display: inline-block !important;
+    padding: 10px;
+    border: none;
+    margin-right: 5px;
+}
+
+.where-find-by-input::placeholder {
+    font-size: 12px;
+    font-style: italic;
+    color: #ccc;
+}
+
+.where-find-by-input:focus, .where-find-by-input:active {
+    outline: none !important;
+    border-color: #ccc !important;
+}
+
+.retailer-block button {
+    position: relative;
+    top: 12px;
+    background-color: #faaa41;
+    height: 20px;
+    width: 20px;
+    padding: 13px;
+    border-radius: 12px;
+    border: none;
+    color: #ffffff;
+}
+
+.retailer-block button:hover, .retailer-block button:active {
+    background-color: #faaa41;
+}
+
+.retailer-block button:after {
+    font-family: FontAwesome;
+    content: "\f061";
+    position: relative;
+    left: -7px;
+    top: -12px;
+    font-weight: 400;
+}
+
+.where-buy-switcher {
+    display: inline-block;
+    float: right;
+    width: 40%;
+    margin-top: 9px;
+}
+
+.where-buy-switcher .nav-switcher {
+
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: none;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 2px;
+    width: 48%;
+    display: inline-block;
+    background: linear-gradient(to top, #97886C, #C4B499);
+}
+
+.where-buy-switcher .nav-switcher:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+}
+
+.where-buy-switcher .nav-switcher:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -5px;
+    border-left: none;
+}
+
+.where-buy-switcher .nav-switcher:hover {
+    box-shadow: none;
+    color: #ffffff;
+
+}
+
+.switch-on {
+    color: #97886C !important;
+    background: none !important;
+    box-shadow: -1px 1px 9px 0px #8e87876e inset !important;
+}
+
+
+.find-near-by-wrapper, .buy-online-wrapper {
+    background: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+    height: 235px;
+    overflow-y: scroll;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+.find-near-by-item {
+    border-bottom: 2px solid #ccc;
+    padding: 15px 0 5px 10px;
+    min-height: 70px;
+}
+
+.find-near-by-item:last-child {
+    border-bottom: none;
+}
+
+.buy-online-item {
+    border-bottom: 2px solid #ccc;
+    padding: 0;
+    margin: 0;
+    height: 85px;
+}
+
+.buy-online-item:last-child {
+    border-bottom: none;
+}
+
+.find-near-by-item p {
+    margin: 0;
+}
+
+.find-near-by-locator {
+    float: left;
+    display: inline-block;
+    width: 10%;
+    height: 100%;
+    font-size: 30px;
+}
+
+.find-near-by-locator:after {
+    font-family: FontAwesome;
+    content: "\f041";
+    font-weight: 400;
+    color: #008D49;
+    font-size: 40px;
+}
+
+.find-near-by-description {
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+}
+
+.find-near-by-description .item-title {
+    color: #008D49;
+    font-weight: bold;
+}
+
+.find-near-by-description .item-address {
+    font-size: 15px;
+}
+
+.find-near-by-direction {
+    float: right;
+    display: inline-block;
+    height: 100%;
+}
+
+.find-near-by-direction .item-direction {
+    font-size: 25px;
+    margin-top: -10px;
+    color: #969393;
+    text-align: center;
+    min-height: 25px;
+}
+
+.find-near-by-direction button {
+    border: none;
+    height: 20px;
+    border-radius: 15px;
+    padding: 15px;
+    width: 135px;
+    background-color: #faaa41;
+    color: #ffffff;
+}
+
+.find-near-by-direction button.button-car {
+    border: none;
+    height: 20px;
+    border-radius: 15px;
+    padding: 15px;
+    width: 31px;
+    background-color: #faaa41;
+    background-image: url(img/directions.svg);
+    color: #ffffff;
+
+}
+
+.find-near-by-direction button.button-phone {
+    border: none;
+    height: 20px;
+    border-radius: 15px;
+    padding: 15px;
+    width: 31px;
+    background-color: #faaa41;
+    background-image: url(img/telephone.svg);
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.find-near-by-direction button.button-car a, .find-near-by-direction button.button-phone a {
+    width: 10px;
+    display: block;
+    height: 10px;
+}
+
+.button-direction-text a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.button-direction-text {
+    position: relative;
+    top: -11px;
+}
+
+.buy-online-button-wrapper {
+    width: 50%;
+    display: inline;
+}
+
+.buy-online-button-wrapper button {
+    float: right;
+    height: 20px;
+    border-radius: 15px;
+    padding: 15px;
+    width: 118px;
+    background-color: #faaa41;
+    border: none;
+    color: #ffffff;
+    position: relative;
+    top: 27px;
+}
+
+.logo-retailer {
+    display: inline-block;
+}
+
+.logo-retailer {
+    width: 50%;
+}
+
+.no-items {
+    text-align: center;
+}
+
+.logo-retailer img {
+    width: 150px;
+    position: relative;
+}
+
+.where-buy-info.error {
+    color: red;
+    padding: 10px;
+    border: 1px solid red;
+    background-color: #ff00001f;
+}
+
+.logo-retailer .retailer-title {
+    text-align: center;
+    width: 145px;
+    display: block;
+    padding-top: 30px;
+}
+
+.for-mobile-display {
+    display: none;
+}
+
+.meijer-img {
+    width: 100px !important;
+    padding: 20px;
+}
+
+.mobile {
+    display: none;
+}
+
+.popover {
+    background-color: #fff;
+    border-radius: 5px;
+    bottom: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    color: #000;
+    display: none;
+    font-size: 12px;
+    font-family: 'Helvetica', sans-serif;
+    left: -60px;
+    padding: 7px 10px;
+    position: relative;
+    width: 100px;
+    z-index: 4;
+    top: -65px;
+}
+
+.popover:before {
+    border-top: 7px solid rgba(0, 0, 0, 0.85);
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    bottom: -7px;
+    content: '';
+    display: block;
+    left: 50%;
+    margin-left: -7px;
+    position: absolute;
+}
+
+.popover-button {
+    position: relative;
+    top: -18px;
+}
+
+@media only screen and (max-width: 1215px) {
+    .map-block {
+        width: 100%;
+    }
+
+    .where-buy-fiber-choice-block {
+        width: 88%;
+    }
+
+    .green-line {
+        min-width: 1860px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .green-line {
+        min-width: 1760px;
+    }
+}
+
+@media only screen and (max-width: 985px) {
+
+    .where-find-by-input {
+        width: 92% !important;
+    }
+
+    .where-buy-switcher {
+        width: 100%;
+    }
+
+    .where-buy-switcher .nav-switcher {
+        padding: 7px 0;
+        max-width: 50%;
+    }
+
+    .where-buy-switcher .nav-switcher:last-child {
+        max-width: none;
+        width: 51.9%;
+    }
+
+    .for-desktop-display {
+        display: none;
+    }
+
+    .for-mobile-display {
+        display: block;
+    }
+
+    .map-block {
+        margin-left: 0;
+    }
+
+    .where-buy-fiber-choice-block {
+        float: none;
+        width: 100%;
+    }
+
+    .for-mobile-display-products {
+        display: block;
+    }
+
+    .for-mobile-display-products .products {
+        background: #ffffff;
+        padding: 10px 10px 0 10px;
+    }
+
+    .for-mobile-display-products .product-item {
+        width: 100%;
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .for-mobile-display-products input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+    }
+
+    .where-buy-products-title-for-mobile {
+        padding: 7px 15px 7px 15px;
+        color: #fff;
+        background: #75277D;
+        margin-bottom: 0;
+        margin-top: 44px;
+    }
+
+    .toggle-product-menu {
+        float: right;
+    }
+
+    .icon-down:after {
+        font-family: FontAwesome;
+        content: "\f107";
+        color: #fff;
+        font-weight: 400;
+        visibility: visible;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .icon-up:after {
+        font-family: FontAwesome;
+        content: "\f106";
+        color: #fff;
+        font-weight: 400;
+        visibility: visible;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .for-desktop-display-products {
+        display: none;
+    }
+
+    .map-block {
+        height: 313px;
+    }
+
+    .find-near-by-locator {
+        display: none;
+    }
+
+    .find-near-by-direction button {
+        width: 90px;
+        font-size: 12px;
+    }
+
+    .button-direction-text {
+        top: -8px;
+    }
+
+    .find-near-by-wrapper, .buy-online-wrapper {
+        height: auto;
+        overflow: unset;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 920px) {
+
+    .green-line {
+        min-width: 1660px;
+        margin-bottom: 0;
+    }
+
+}
+
+@media only screen and (max-width: 820px) {
+
+    .green-line {
+        min-width: 1560px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .where-find-by-input {
+        width: 90% !important;
+    }
+
+    .green-line {
+        min-width: 1460px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .where-find-by-input {
+        width: 88% !important;
+    }
+
+    .green-line {
+        min-width: 1380px;
+    }
+
+    .find-near-by-wrapper {
+        margin-top: 35px;
+    }
+
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    .where-find-by-input {
+        width: 80% !important;
+    }
+
+    .where-buy-fiber-choice-block h1 {
+        font-size: 22px;
+        margin: 15px 0;
+    }
+
+    .where-buy-switcher {
+        width: 100%;
+        font-size: 14px
+    }
+
+    .find-near-by-description {
+        font-size: 13px;
+    }
+
+    .find-near-by-locator:after {
+        font-size: 30px;
+    }
+
+    .product-item {
+        font-size: 13px;
+    }
+
+    .green-line {
+        min-width: 1130px;
+    }
+
+    .find-near-by-description .item-address {
+        font-size: 13px;
+    }
+
+    .find-near-by-direction .item-direction {
+        font-size: 20px;
+    }
+}
